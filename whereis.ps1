@@ -3,7 +3,7 @@ param($item, $path, $verbose=$true)
 if($null -ne $item -and $null -eq $path)
 {
     Write-Host "
-    ------------------- Searching for < $item > -----------------------
+    ------------------- Searching for < '$item' > -----------------------
     --------- you can stop the search using 'ctrl+c' ------------------   
     
     searching ..."
