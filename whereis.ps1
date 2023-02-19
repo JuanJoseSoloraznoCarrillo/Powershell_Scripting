@@ -12,7 +12,7 @@ if($null -ne $item -and $null -eq $path)
     
 }elseif ($null -ne $item -and $null -ne $path) {
     Write-Host "
-    ------------------- Searching for < $item > -----------------------
+    ------------------- Searching for < '$item' > -----------------------
     --------- you can stop the search using 'ctrl+c' ------------------   
     
     searching ..."
